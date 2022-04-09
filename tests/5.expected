@@ -1,0 +1,800 @@
+translation_unit (
+  global_decl (
+    struct_decl (
+      struct
+      Buffer
+      struct_body_decl (
+        {
+        struct_member (
+          variable_ident_decl (
+            data
+            :
+            type_decl (
+              type_decl_without_ident (
+                array_type_decl (
+                  array
+                  <
+                  type_decl (
+                    type_decl_without_ident (
+                      u32
+                    )
+                  )
+                  >
+                )
+              )
+            )
+          )
+        )
+        ;
+        }
+      )
+      ;
+    )
+  )
+  global_decl (
+    global_variable_decl (
+      attribute (
+        [
+        [
+        group
+        (
+        literal_or_ident (
+          0
+        )
+        )
+        ,
+        binding
+        (
+        literal_or_ident (
+          0
+        )
+        )
+        ]
+        ]
+      )
+      variable_decl (
+        var
+        variable_qualifier (
+          <
+          address_space (
+            storage
+          )
+          ,
+          access_mode (
+            read_write
+          )
+          >
+        )
+        variable_ident_decl (
+          output
+          :
+          type_decl (
+            Buffer
+          )
+        )
+      )
+    )
+    ;
+  )
+  global_decl (
+    function_decl (
+      attribute (
+        [
+        [
+        stage
+        (
+        literal_or_ident (
+          compute
+        )
+        )
+        ,
+        workgroup_size
+        (
+        literal_or_ident (
+          1
+        )
+        )
+        ]
+        ]
+      )
+      function_header (
+        fn
+        main
+        (
+        )
+      )
+      compound_statement (
+        {
+        statement (
+          compound_statement (
+            {
+            statement (
+              compound_statement (
+                {
+                statement (
+                  if_statement (
+                    if
+                    expression (
+                      relational_expression (
+                        shift_expression (
+                          additive_expression (
+                            multiplicative_expression (
+                              unary_expression (
+                                singular_expression (
+                                  primary_expression (
+                                    (
+                                    expression (
+                                      relational_expression (
+                                        shift_expression (
+                                          additive_expression (
+                                            multiplicative_expression (
+                                              unary_expression (
+                                                singular_expression (
+                                                  primary_expression (
+                                                    const_literal (
+                                                      bool_literal (
+                                                        false
+                                                      )
+                                                    )
+                                                  )
+                                                )
+                                              )
+                                            )
+                                          )
+                                        )
+                                      )
+                                    )
+                                    )
+                                  )
+                                )
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                    compound_statement (
+                      {
+                      statement (
+                        if_statement (
+                          if
+                          expression (
+                            relational_expression (
+                              shift_expression (
+                                additive_expression (
+                                  multiplicative_expression (
+                                    unary_expression (
+                                      singular_expression (
+                                        primary_expression (
+                                          (
+                                          expression (
+                                            relational_expression (
+                                              shift_expression (
+                                                additive_expression (
+                                                  multiplicative_expression (
+                                                    unary_expression (
+                                                      !
+                                                      unary_expression (
+                                                        singular_expression (
+                                                          primary_expression (
+                                                            (
+                                                            expression (
+                                                              relational_expression (
+                                                                shift_expression (
+                                                                  additive_expression (
+                                                                    multiplicative_expression (
+                                                                      unary_expression (
+                                                                        singular_expression (
+                                                                          primary_expression (
+                                                                            (
+                                                                            expression (
+                                                                              relational_expression (
+                                                                                shift_expression (
+                                                                                  additive_expression (
+                                                                                    additive_expression (
+                                                                                      multiplicative_expression (
+                                                                                        unary_expression (
+                                                                                          singular_expression (
+                                                                                            primary_expression (
+                                                                                              (
+                                                                                              expression (
+                                                                                                relational_expression (
+                                                                                                  shift_expression (
+                                                                                                    shift_expression (
+                                                                                                      additive_expression (
+                                                                                                        multiplicative_expression (
+                                                                                                          unary_expression (
+                                                                                                            singular_expression (
+                                                                                                              primary_expression (
+                                                                                                                (
+                                                                                                                expression (
+                                                                                                                  relational_expression (
+                                                                                                                    shift_expression (
+                                                                                                                      additive_expression (
+                                                                                                                        multiplicative_expression (
+                                                                                                                          unary_expression (
+                                                                                                                            singular_expression (
+                                                                                                                              primary_expression (
+                                                                                                                                const_literal (
+                                                                                                                                  int_literal (
+                                                                                                                                    1387881967u
+                                                                                                                                  )
+                                                                                                                                )
+                                                                                                                              )
+                                                                                                                            )
+                                                                                                                          )
+                                                                                                                        )
+                                                                                                                      )
+                                                                                                                    )
+                                                                                                                  )
+                                                                                                                )
+                                                                                                                )
+                                                                                                              )
+                                                                                                            )
+                                                                                                          )
+                                                                                                        )
+                                                                                                      )
+                                                                                                    )
+                                                                                                    >
+                                                                                                    >
+                                                                                                    additive_expression (
+                                                                                                      multiplicative_expression (
+                                                                                                        unary_expression (
+                                                                                                          singular_expression (
+                                                                                                            primary_expression (
+                                                                                                              (
+                                                                                                              expression (
+                                                                                                                relational_expression (
+                                                                                                                  shift_expression (
+                                                                                                                    additive_expression (
+                                                                                                                      multiplicative_expression (
+                                                                                                                        unary_expression (
+                                                                                                                          ~
+                                                                                                                          unary_expression (
+                                                                                                                            singular_expression (
+                                                                                                                              primary_expression (
+                                                                                                                                (
+                                                                                                                                expression (
+                                                                                                                                  relational_expression (
+                                                                                                                                    shift_expression (
+                                                                                                                                      additive_expression (
+                                                                                                                                        multiplicative_expression (
+                                                                                                                                          unary_expression (
+                                                                                                                                            singular_expression (
+                                                                                                                                              primary_expression (
+                                                                                                                                                const_literal (
+                                                                                                                                                  int_literal (
+                                                                                                                                                    1884669894u
+                                                                                                                                                  )
+                                                                                                                                                )
+                                                                                                                                              )
+                                                                                                                                            )
+                                                                                                                                          )
+                                                                                                                                        )
+                                                                                                                                      )
+                                                                                                                                    )
+                                                                                                                                  )
+                                                                                                                                )
+                                                                                                                                )
+                                                                                                                              )
+                                                                                                                            )
+                                                                                                                          )
+                                                                                                                        )
+                                                                                                                      )
+                                                                                                                    )
+                                                                                                                  )
+                                                                                                                )
+                                                                                                              )
+                                                                                                              )
+                                                                                                            )
+                                                                                                          )
+                                                                                                        )
+                                                                                                      )
+                                                                                                    )
+                                                                                                  )
+                                                                                                )
+                                                                                              )
+                                                                                              )
+                                                                                            )
+                                                                                          )
+                                                                                        )
+                                                                                      )
+                                                                                    )
+                                                                                    -
+                                                                                    multiplicative_expression (
+                                                                                      unary_expression (
+                                                                                        singular_expression (
+                                                                                          primary_expression (
+                                                                                            (
+                                                                                            expression (
+                                                                                              relational_expression (
+                                                                                                shift_expression (
+                                                                                                  additive_expression (
+                                                                                                    multiplicative_expression (
+                                                                                                      multiplicative_expression (
+                                                                                                        unary_expression (
+                                                                                                          singular_expression (
+                                                                                                            primary_expression (
+                                                                                                              (
+                                                                                                              expression (
+                                                                                                                relational_expression (
+                                                                                                                  shift_expression (
+                                                                                                                    additive_expression (
+                                                                                                                      multiplicative_expression (
+                                                                                                                        unary_expression (
+                                                                                                                          singular_expression (
+                                                                                                                            primary_expression (
+                                                                                                                              const_literal (
+                                                                                                                                int_literal (
+                                                                                                                                  3028040736u
+                                                                                                                                )
+                                                                                                                              )
+                                                                                                                            )
+                                                                                                                          )
+                                                                                                                        )
+                                                                                                                      )
+                                                                                                                    )
+                                                                                                                  )
+                                                                                                                )
+                                                                                                              )
+                                                                                                              )
+                                                                                                            )
+                                                                                                          )
+                                                                                                        )
+                                                                                                      )
+                                                                                                      %
+                                                                                                      unary_expression (
+                                                                                                        singular_expression (
+                                                                                                          primary_expression (
+                                                                                                            (
+                                                                                                            expression (
+                                                                                                              relational_expression (
+                                                                                                                shift_expression (
+                                                                                                                  additive_expression (
+                                                                                                                    multiplicative_expression (
+                                                                                                                      unary_expression (
+                                                                                                                        singular_expression (
+                                                                                                                          primary_expression (
+                                                                                                                            const_literal (
+                                                                                                                              int_literal (
+                                                                                                                                82613919u
+                                                                                                                              )
+                                                                                                                            )
+                                                                                                                          )
+                                                                                                                        )
+                                                                                                                      )
+                                                                                                                    )
+                                                                                                                  )
+                                                                                                                )
+                                                                                                              )
+                                                                                                            )
+                                                                                                            )
+                                                                                                          )
+                                                                                                        )
+                                                                                                      )
+                                                                                                    )
+                                                                                                  )
+                                                                                                )
+                                                                                              )
+                                                                                            )
+                                                                                            )
+                                                                                          )
+                                                                                        )
+                                                                                      )
+                                                                                    )
+                                                                                  )
+                                                                                )
+                                                                              )
+                                                                            )
+                                                                            )
+                                                                          )
+                                                                        )
+                                                                      )
+                                                                    )
+                                                                  )
+                                                                )
+                                                                !=
+                                                                shift_expression (
+                                                                  additive_expression (
+                                                                    multiplicative_expression (
+                                                                      unary_expression (
+                                                                        singular_expression (
+                                                                          primary_expression (
+                                                                            (
+                                                                            expression (
+                                                                              relational_expression (
+                                                                                shift_expression (
+                                                                                  additive_expression (
+                                                                                    multiplicative_expression (
+                                                                                      unary_expression (
+                                                                                        singular_expression (
+                                                                                          primary_expression (
+                                                                                            const_literal (
+                                                                                              int_literal (
+                                                                                                1398318594u
+                                                                                              )
+                                                                                            )
+                                                                                          )
+                                                                                        )
+                                                                                      )
+                                                                                    )
+                                                                                  )
+                                                                                )
+                                                                              )
+                                                                            )
+                                                                            )
+                                                                          )
+                                                                        )
+                                                                      )
+                                                                    )
+                                                                  )
+                                                                )
+                                                              )
+                                                            )
+                                                            )
+                                                          )
+                                                        )
+                                                      )
+                                                    )
+                                                  )
+                                                )
+                                              )
+                                            )
+                                          )
+                                          )
+                                        )
+                                      )
+                                    )
+                                  )
+                                )
+                              )
+                            )
+                          )
+                          compound_statement (
+                            {
+                            statement (
+                              variable_statement (
+                                variable_decl (
+                                  var
+                                  var_0
+                                )
+                                =
+                                expression (
+                                  relational_expression (
+                                    shift_expression (
+                                      additive_expression (
+                                        multiplicative_expression (
+                                          unary_expression (
+                                            singular_expression (
+                                              primary_expression (
+                                                const_literal (
+                                                  bool_literal (
+                                                    false
+                                                  )
+                                                )
+                                              )
+                                            )
+                                          )
+                                        )
+                                      )
+                                    )
+                                  )
+                                )
+                              )
+                              ;
+                            )
+                            }
+                          )
+                        )
+                      )
+                      }
+                    )
+                  )
+                )
+                }
+              )
+            )
+            }
+          )
+        )
+        statement (
+          variable_statement (
+            let
+            var_0
+            =
+            expression (
+              relational_expression (
+                shift_expression (
+                  additive_expression (
+                    multiplicative_expression (
+                      unary_expression (
+                        !
+                        unary_expression (
+                          singular_expression (
+                            primary_expression (
+                              (
+                              expression (
+                                relational_expression (
+                                  shift_expression (
+                                    additive_expression (
+                                      multiplicative_expression (
+                                        unary_expression (
+                                          !
+                                          unary_expression (
+                                            singular_expression (
+                                              primary_expression (
+                                                (
+                                                expression (
+                                                  relational_expression (
+                                                    shift_expression (
+                                                      additive_expression (
+                                                        multiplicative_expression (
+                                                          unary_expression (
+                                                            !
+                                                            unary_expression (
+                                                              singular_expression (
+                                                                primary_expression (
+                                                                  (
+                                                                  expression (
+                                                                    relational_expression (
+                                                                      shift_expression (
+                                                                        additive_expression (
+                                                                          multiplicative_expression (
+                                                                            unary_expression (
+                                                                              singular_expression (
+                                                                                primary_expression (
+                                                                                  callable_val (
+                                                                                    type_decl_without_ident (
+                                                                                      vec_prefix (
+                                                                                        vec4
+                                                                                      )
+                                                                                      <
+                                                                                      type_decl (
+                                                                                        type_decl_without_ident (
+                                                                                          bool
+                                                                                        )
+                                                                                      )
+                                                                                      >
+                                                                                    )
+                                                                                  )
+                                                                                  argument_expression_list (
+                                                                                    (
+                                                                                    expression (
+                                                                                      relational_expression (
+                                                                                        shift_expression (
+                                                                                          additive_expression (
+                                                                                            multiplicative_expression (
+                                                                                              unary_expression (
+                                                                                                singular_expression (
+                                                                                                  primary_expression (
+                                                                                                    const_literal (
+                                                                                                      bool_literal (
+                                                                                                        false
+                                                                                                      )
+                                                                                                    )
+                                                                                                  )
+                                                                                                )
+                                                                                              )
+                                                                                            )
+                                                                                          )
+                                                                                        )
+                                                                                      )
+                                                                                    )
+                                                                                    ,
+                                                                                    expression (
+                                                                                      relational_expression (
+                                                                                        shift_expression (
+                                                                                          additive_expression (
+                                                                                            multiplicative_expression (
+                                                                                              unary_expression (
+                                                                                                singular_expression (
+                                                                                                  primary_expression (
+                                                                                                    const_literal (
+                                                                                                      bool_literal (
+                                                                                                        false
+                                                                                                      )
+                                                                                                    )
+                                                                                                  )
+                                                                                                )
+                                                                                              )
+                                                                                            )
+                                                                                          )
+                                                                                        )
+                                                                                      )
+                                                                                    )
+                                                                                    ,
+                                                                                    expression (
+                                                                                      relational_expression (
+                                                                                        shift_expression (
+                                                                                          additive_expression (
+                                                                                            multiplicative_expression (
+                                                                                              unary_expression (
+                                                                                                singular_expression (
+                                                                                                  primary_expression (
+                                                                                                    const_literal (
+                                                                                                      bool_literal (
+                                                                                                        false
+                                                                                                      )
+                                                                                                    )
+                                                                                                  )
+                                                                                                )
+                                                                                              )
+                                                                                            )
+                                                                                          )
+                                                                                        )
+                                                                                      )
+                                                                                    )
+                                                                                    ,
+                                                                                    expression (
+                                                                                      relational_expression (
+                                                                                        shift_expression (
+                                                                                          additive_expression (
+                                                                                            multiplicative_expression (
+                                                                                              unary_expression (
+                                                                                                !
+                                                                                                unary_expression (
+                                                                                                  singular_expression (
+                                                                                                    primary_expression (
+                                                                                                      (
+                                                                                                      expression (
+                                                                                                        relational_expression (
+                                                                                                          shift_expression (
+                                                                                                            additive_expression (
+                                                                                                              multiplicative_expression (
+                                                                                                                unary_expression (
+                                                                                                                  singular_expression (
+                                                                                                                    primary_expression (
+                                                                                                                      const_literal (
+                                                                                                                        bool_literal (
+                                                                                                                          true
+                                                                                                                        )
+                                                                                                                      )
+                                                                                                                    )
+                                                                                                                  )
+                                                                                                                )
+                                                                                                              )
+                                                                                                            )
+                                                                                                          )
+                                                                                                        )
+                                                                                                      )
+                                                                                                      )
+                                                                                                    )
+                                                                                                  )
+                                                                                                )
+                                                                                              )
+                                                                                            )
+                                                                                          )
+                                                                                        )
+                                                                                      )
+                                                                                    )
+                                                                                    )
+                                                                                  )
+                                                                                )
+                                                                              )
+                                                                            )
+                                                                          )
+                                                                        )
+                                                                      )
+                                                                    )
+                                                                  )
+                                                                  )
+                                                                )
+                                                              )
+                                                            )
+                                                          )
+                                                        )
+                                                      )
+                                                    )
+                                                  )
+                                                )
+                                                )
+                                              )
+                                            )
+                                          )
+                                        )
+                                      )
+                                    )
+                                  )
+                                )
+                              )
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+          ;
+        )
+        statement (
+          assignment_statement (
+            lhs_expression (
+              core_lhs_expression (
+                output
+              )
+              postfix_expression (
+                .
+                data
+                postfix_expression (
+                  [
+                  expression (
+                    relational_expression (
+                      shift_expression (
+                        additive_expression (
+                          multiplicative_expression (
+                            unary_expression (
+                              singular_expression (
+                                primary_expression (
+                                  const_literal (
+                                    int_literal (
+                                      0u
+                                    )
+                                  )
+                                )
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                  ]
+                )
+              )
+            )
+            =
+            expression (
+              relational_expression (
+                shift_expression (
+                  additive_expression (
+                    multiplicative_expression (
+                      unary_expression (
+                        ~
+                        unary_expression (
+                          singular_expression (
+                            primary_expression (
+                              (
+                              expression (
+                                relational_expression (
+                                  shift_expression (
+                                    additive_expression (
+                                      multiplicative_expression (
+                                        unary_expression (
+                                          singular_expression (
+                                            primary_expression (
+                                              const_literal (
+                                                int_literal (
+                                                  2945982236u
+                                                )
+                                              )
+                                            )
+                                          )
+                                        )
+                                      )
+                                    )
+                                  )
+                                )
+                              )
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+          ;
+        )
+        }
+      )
+    )
+  )
+  <EOF>
+)
