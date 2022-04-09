@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout git repo
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Install delta
+        run: |
+          wget https://github.com/dandavison/delta/releases/download/0.12.1/git-delta_0.12.1_amd64.deb
+          sudo dpkg -i git-delta_0.12.1_amd64.deb
+
+      - name: Build gradle project
+        run: ./gradlew build
+
+      - name: Run tests
+        run: |
+          for i in {1..5}; do
+            ./gradlew run -q --args="tests/$i.wgsl" | delta -n "tests/$i.expected" -
+          done
